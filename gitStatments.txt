@@ -1,0 +1,58 @@
+1- git inti  --> to initialize a git file.
+
+2- ls -a  ---> shows thge hidden files.
+
+3- git status  --> to see what is inside the staging area
+    - staging area is the intermediate place where you can choose what files
+      inside your work directory you want to commit.
+
+4- git add FILE_NAME ---> to add a file in the staging area.
+
+!! 5- git commit -m "message" --> to commit a file in the staging area
+    -- and (-m) is for a message appears after the execution.
+
+6- git log --> to see what commit you've made.
+
+!! 7-git diff FILE_NAME ---> to see the diffrenses between the file befor and after it got updated.
+
+!! 8-git checkout FILE_NAME --> to rollback to the old varsion of the file befor the update.
+
+-git add . ---> to add all the files within the directory inside the git file.
+
+- code FILE_NAME ---> is how to open the file from the terminal.
+
+!!!- git rm --cached -r . ---> is to remove all the files within the staging area.
+
+
+<GitHub>
+
+!!! 9- git remote add <name> <URL> --> to transfer all the files on the locla repository into a remote one on the internet.
+
+!!! 10- git branch -M <branch name> ---> is to create  a branch to store your files in.
+
+!!! 11-git push -u <remote name> <branch name> --> it pushes your local repository to the one on the internet (remote repository).
+
+12- git merge <NAME-OF-BRANCH> ---> is to connect a branch to the main repository on GitHub.
+
+13- git branch --> to check all the branches.
+
+!!! 14- git checkout <NAME-OF-BRANCH> ---> to switch between the branches. 
+
+
+
+<gitignore>
+
+!!! 1- to select and put the secret files inside the gitignore directory you must write the names of the files exactly the same as they are.
+
+2- you can use "#" to write comments.
+
+!!! 3- if you used the "*" like (*.txt) it means that all the files that are txt type are moved automaticlly to the gitignore directory.
+
+4- and as long as the file is within the gitignore it will be hidden and not commited.
+
+
+
+
+<cloning> --> it to clone a remote repository into your local repository and use it.
+
+git clone <URL> --> the command of cloning
